@@ -22,8 +22,10 @@ header{
     padding: 0 0 -20px 0;
 }
 .header_box{
-    height:100%;
-    width :960px;
+    position: relative;
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
 }
 .namebox{
     font-size: 30px;
@@ -31,15 +33,12 @@ header{
     border-radius:5px 5px 0 0;
     color:whitesmoke;
     float:left;
-    margin: 20px 0 0 20px;
+    margin: 20px 0 0 0;
     padding: 25px;
 }
 .menulink{
     list-style-type: none;
     float: left;
-    margin: 0;
-    padding: 0;
-
 }
 .clearfix{
     overflow: auto;
@@ -80,8 +79,8 @@ footer{
 }
 ul{
     position: absolute;
-    right:0;
-    top: 3%;
+    right: 0;
+    bottom: 5px;
 }
 li{
     list-style-type: none;
@@ -135,7 +134,6 @@ input[type=submit]:hover {
     width: 200px;
     background-color: lightblue;
     float: left;
-    border: 1px solid teal;
     margin: 20px;
     overflow:hidden;
 }
@@ -151,4 +149,9 @@ input[type=submit]:hover {
 }
 .banner_text{
     padding: 15px;
+}
+.imagefixed{
+    margin: 0;
+    height: 100%;
+    width: 100%;
 }
