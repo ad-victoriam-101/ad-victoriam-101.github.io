@@ -21,6 +21,10 @@ header{
     margin: 0 0 10% 0;
     padding: 0 0 -20px 0;
 }
+.header_box{
+    height:100%;
+    width :960px;
+}
 .namebox{
     font-size: 30px;
     background-color: teal;
