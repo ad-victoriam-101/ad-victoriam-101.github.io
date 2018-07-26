@@ -22,6 +22,7 @@ header{
     margin: 0 0 10% 0;
 }
 .namebox{
+    font-size: 30px;
     background-color: teal;
     border-radius:5px 5px 0 0;
     color:whitesmoke;
@@ -123,4 +124,27 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: darkcyan;
+}
+.box{
+    position: relative;
+    height: 180px;
+    width: 200px;
+    background-color: lightblue;
+    float: left;
+    border: 1px solid teal;
+    margin: 20px;
+    overflow:hidden;
+}
+.banner{
+    position: absolute;
+    height: 45px;
+    width: 200px;
+    padding: 5px 0;
+    background-color: rgb(3, 156, 156);
+    bottom: 10px;
+    color:whitesmoke;
+    text-align: center;
+}
+.banner_text{
+    padding: 15px;
 }
