@@ -18,8 +18,8 @@ header{
     width: 100%;
     background-color:whitesmoke;
     font-family: 'Georgia', Times, serif;
-    padding:20px;
     margin: 0 0 10% 0;
+    padding: 0 0 -20px 0;
 }
 .namebox{
     font-size: 30px;
