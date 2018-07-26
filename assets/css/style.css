@@ -49,11 +49,17 @@ header{
 .boxheader{
     border-bottom: 2px solid gray;
     color:teal;
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 .insidebox{
     padding: 20px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+}
+.paragraph_spacing{
+    line-height: 1.6;
 }
 img{
     float: left;
@@ -65,8 +71,7 @@ footer{
     text-align: center;
     color: white;
     border-top: 5px solid teal;
-    height:2%;
-
+    padding: 20px;
 }
 ul{
     position: absolute;
@@ -86,10 +91,11 @@ li a:link{
     color: gray;
 }
 li a:visited{
-    color:teal;
+    color: gray;
 }
 li a:hover{
     list-style-type: none;
+    color: teal;
     border-bottom: 2px solid black;
     padding-bottom: 20px;
 
